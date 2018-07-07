@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  align-items: center;
+
+  .copyright-text,
+  .footer-menu {
+    margin: 0;
+  }
+
+  .copyright-text {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .footer-menu {
+    list-style-type: none;
+
+    .footer-menu-item {
+      .link-img {
+        height: 30px;
+        width: 30px;
+      }
+    }
+  }
+}

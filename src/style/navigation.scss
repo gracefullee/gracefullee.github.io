@@ -1,0 +1,34 @@
+.navigation {
+  display: flex;
+  align-items: flex-end;
+
+  .site-title,
+  .nav-menu {
+    margin: 0;
+  }
+
+  .site-title a,
+  .nav-menu-item {
+    color: #2C3E50;
+    text-decoration: none;
+  }
+
+  .site-title {
+    flex-grow: 1;
+    text-align: left;
+  }
+
+  .nav-menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    .nav-menu-item {
+      color: #2C3E50;
+      text-decoration: none;
+      padding: 0 14px;
+    }
+  }
+}
